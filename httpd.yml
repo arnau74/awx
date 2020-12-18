@@ -3,7 +3,7 @@
   remote_user: ansible
   become: yes
   become_method: sudo
-    tasks:
+  tasks:
   - name: Install apache packages 
     yum:
       name: httpd
