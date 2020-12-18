@@ -1,8 +1,5 @@
 - name: This sets up an httpd webserver
   hosts: all
-  remote_user: ansible
-  become: yes
-  become_method: sudo
   tasks:
   - name: Install apache packages 
     yum:
